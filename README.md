@@ -21,5 +21,6 @@ go build
 ## 使用说明
 - 必须首先注册并生成自己的apikey和endpoint
 - 输入问题即可发起对话，支持多轮上下文
+- 使用go-prompt处理对话输入，支持命令行快捷键，如`ctrl-a`, `ctrl-e`, `ctrl-b`, `ctrl-f`等
 - 输入`q`/`quit`退出程序
 - 输入`clear`清空对话上下文
